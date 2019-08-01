@@ -39,8 +39,23 @@ footer {
    color:lightgreen;
    font-size: 169%;
  }
- 
+
+ .card-text {
+   background: rgba(119,77,102,0.7);
+ }
+ .card-title {
+    font-size: bold;
+ }
  /*IDs*/
+ #selProj {
+
+   background: rgba(119,77,102,0.7);
+   color:lightgreen;
+   text-align: center;
+   font-family: 'Stylish', sans-serif;
+   margin-bottom: 3%;
+
+ }
  
  #bioImage{
    width: 200px;
@@ -52,6 +67,7 @@ footer {
  #bioBox{
      font-family: 'Stylish', sans-serif;
      margin-top: 6%;
+     margin-bottom: 6%;
      background: rgba(119,77,102,0.7);
      color: lightgreen;
  }
