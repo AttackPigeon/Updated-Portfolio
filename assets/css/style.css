@@ -6,36 +6,27 @@
 
 html, body {
    /*background and default properties*/
-   background: maroon;
    line-height: 1.9;
-   font-family: 'Lora', serif;
-   background-image: url("../images/background/background1.jpg");
-   color: red;
- 
-  /*Scale image based on window size*/
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  /*Properties for sticky footer, flexbox for variable height*/
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-
+   background:#48a59a;
+   font-family: 'Stylish', sans-serif;
+   color: lightgreen;
+   background-image: url("../images/background/background2.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   
 }
-/* a {
-   color:red;
-} */
+
+a {
+   color: lightgreen;
+}
  
-
-
- footer {
+footer {
    font-family: 'Stylish', sans-serif;
    margin-top: 5%;
    text-align: center;
    font-size: 120%;
-   color: red;
-   align-content: center;
+   color: lightgreen;
+   align-items: center;
 }
  
  /*Classes*/
@@ -44,9 +35,8 @@ html, body {
    /*common header properties*/
    background-color: transparent;
    font-family: 'Stylish', sans-serif;
-   border-bottom: 2px solid red;
    margin-bottom: 30px;
-   color: red;
+   color:lightgreen;
    font-size: 169%;
  }
  
@@ -60,16 +50,28 @@ html, body {
  }
 
  #bioBox{
+     font-family: 'Stylish', sans-serif;
      margin-top: 6%;
-     background: rgba(141,125,1,0.7);
-     color: #156166ff;
+     background: rgba(119,77,102,0.7);
+     color: lightgreen;
  }
 
  #details{
-   background: rgba(21,97,102,0.7);
-   color:#afad00ff;
+   background: rgba(119,77,102,0.7);
+   color:lightgreen;
    text-align: center;
    font-family: 'Stylish', sans-serif;
 
  }
  
+
+   @media (max-width: 599px) {  
+ };
+   @media (min-width: 600px) { 
+ };
+   @media (min-width: 900px) {
+ };
+   @media (min-width: 1200px) { 
+ };
+   @media (min-width: 1800px) {
+ };
