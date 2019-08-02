@@ -17,6 +17,8 @@ html, body {
    
 }
 
+
+
 a {
    color: lightgreen;
 }
@@ -31,6 +33,10 @@ footer {
 }
  
  /*Classes*/
+
+ .navbar-brand {
+   color: lightgreen
+ }
 
  .header{
    /*common header properties*/
