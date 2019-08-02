@@ -34,12 +34,10 @@ footer {
  
  /*Classes*/
 
- .navbar-brand {
-   color: lightgreen
- }
-
+.navbar {
+  color: lightgreen;
+}
  .header{
-   /*common header properties*/
    background-color: transparent;
    font-family: 'Stylish', sans-serif;
    margin-bottom: 30px;
